@@ -1,0 +1,12 @@
+img{
+    width: 100%;
+    border:2px solid #EA00FF;
+    background: url(img/tiger.png) no-repeat;
+    -moz-box-shadow: 10px 10px 5px #EA00FF;
+    -webkit-box-shadow: 10px 10px 5px #EA00FF;
+    box-shadow: 10px 10px 5px #EA00FF;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+    transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,303 @@
+<!--Henry Nichols-->
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <title>Neon Design</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Designer RGB offices, gamerooms, and mancaves">
+        <meta name="keywords" content="RGB, neon lights, office, gameroom, mancave, Henry Nichols">
+        <meta name="author" content="H. Nichols">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <!--Internal CSS-->
+        <!--Requirement 1-->
+        <!--My color scheme is based on the background picture. The neon highlights within this picture set the tone for my site.-->
+        <!--Here are some of the main color codes I will be using: red (#FF3131, #FF5E00),
+                                                                    yellow (#FFF01F, #FFF01F, #E7EE4F),
+                                                                        green (#39FF14, #7FFF00, #CCFF00),
+                                                                            blue (#1F51FF, #0FF0FC),
+                                                                                purple (#BC13FE, #8A2BE2),
+                                                                                    pink (#FF1493, #FF44CC, #EA00FF)-->
+        <!--The main areas affected by these colors will be the site name in the header, menu options, and footer information.-->
+        <style>
+
+            html, body, div, span, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            abbr, address, cite, code,
+            del, dfn, em, img, ins, kbd, q, samp,
+            small, strong, sub, sup, var,
+            b, i,
+            dl, dt, dd, ol, ul, li,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td,
+            article, aside, canvas, details, figcaption, figure, 
+            footer, header, hgroup, menu, nav, section, summary,
+            time, mark, audio, video {
+                margin:0;
+                padding:0;
+                border:0;
+                outline:0;
+                font-size:100%;
+                vertical-align:baseline;
+                background:transparent;
+            }
+
+            /*Body is set for roboto font*/
+
+            body {
+                background-color: #f5f5f5;
+                font-family: 'Roboto', sans-serif;
+                line-height:1;
+                background-image: url("img/skyline_bg.jpg");
+                background-size: cover;
+                background-position: center;
+
+            }
+
+            #container{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 95px 1fr auto auto;
+                grid-gap: 10px;
+                width: 85vw;
+                height: 100vh;
+                margin: auto;
+                
+                
+            }
+
+
+            header{
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                z-index: 1;
+                justify-self: center;
+            }
+            #nav{
+                padding: 2%;
+                font-size: 2em;
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                padding-top: 35px;
+                width: 100%;
+                justify-content: space-evenly;
+                
+            }
+            /*Nav is set for Orbitron font*/
+            nav{
+                display: flex;
+                border: 4px solid rgb(0, 255, 21);
+                border-radius: 30px;
+                font-weight: 100;
+                text-align: center;
+                font-family: 'Orbitron', sans-serif;
+                background-color: #8A2BE280;
+                padding: 20px;
+                width: 100%;
+                justify-self: center;
+            }
+            
+            main{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                grid-column-gap: 70px;
+            }
+            #footer{
+                border: 4px solid rgb(0, 255, 21);
+                border-radius: 22px;
+                font-weight: 100;
+                text-align: center;
+                font-family: 'Orbitron', sans-serif;
+                background-color: #8A2BE280;
+                padding: 12px;
+                display: flex;
+                width: 100%;
+                justify-content: space-evenly;
+                
+                
+            }
+    
+
+            footer {
+                display: flex;
+                font-size: 2em;
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 4;
+                grid-row-end: 5;
+                justify-self: center;
+                width: 100%;
+                
+            }
+            
+            
+            .boxarea{
+                margin: 10px;
+                padding: 8px;
+                max-width: 310px;
+                flex: 1 0 250px;
+                height: 300px;
+
+            }
+
+            /*info is set for Neonderthaw font*/
+            /*info weight is set for the default 100*/
+            #info{
+                font-size: 120px;
+                font-family: 'Neonderthaw', cursive;
+                background: center top no-repeat;
+                margin: 0%;
+                text-align: center;
+                color: #FF1493;
+                
+                
+                animation: blinker 2s linear infinite;
+            }
+
+            @keyframes blinker{
+                30% {
+                    opacity: 0;
+                }
+
+            }
+            #nav a{
+                padding: 2%;
+            }
+            a{
+                transition: all 0.2s ease-in-out;
+                
+            }
+            a:hover{
+                background-color: #FF1493;
+                border-radius: 10px;
+                border-style: outset;
+                border-color: #7FFF00;
+                zoom: 100%;
+                
+                 
+            }
+            img{
+                width: 100%;
+                border:2px solid #EA00FF;
+                background: url(img/tiger.png) no-repeat;
+                -moz-box-shadow: 10px 10px 5px #EA00FF;
+                -webkit-box-shadow: 10px 10px 5px #EA00FF;
+                box-shadow: 10px 10px 5px #EA00FF;
+                -moz-border-radius:25px;
+                -webkit-border-radius:25px;
+                border-radius:25px;
+                transition: all 0.2s ease-in-out;
+            }
+            img:hover{
+                zoom: 500%;
+            }
+            a:link{
+                color: rgb(0, 255, 21);
+            }
+            a:visited{
+                color: rgb(0, 255, 21);
+            }
+            #footer a{
+                padding: 2%;
+                
+            }
+
+            /*h1 is set for Orbitron font*/
+            /*h1 weight is set for the default 100*/
+            /*h1 line-height, word-spacing, and letter-spacing were left as default as it looked best*/
+            h1{
+            text-align: center;
+            text-shadow: 2px 2px #EA00FF;
+            font-family: 'Orbitron', sans-serif;
+            font-size: large;
+            padding-top: 5px;
+            color: #7FFF00;
+            }
+            /*p is set for Orbitron font*/
+            /*p weight is set for the default 100*/
+            /*p line-height, word-spacing, and letter-spacing were left as default as it looked best*/
+            p{
+                text-align: center;
+                text-shadow: 2px 2px #EA00FF;
+                font-family: 'Orbitron', sans-serif;
+                font-size: small;
+                padding-top: 8px;
+                color: #7FFF00;
+            }
+            @media screen and (max-width: 1024px){
+                boxarea{
+                    height: auto;
+                    width: auto;
+                }
+            }
+            @media screen and (max-width: 768px){
+
+            }
+            
+        </style>
+        <!--Internal JavaScript-->
+        <script></script>
+        <!--Google Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <hr>
+        <!--Grid Container-->
+        <div id="container">
+            <!--Grid Items-->
+            <header>
+                <a href="./neon_design.html" style="text-decoration: none;"><div id="info">Neon Design</div></a>
+                
+            </header>
+            <div id="nav">
+                <nav>
+                <a href="DesignInspirations" style="text-decoration:none;">Design Inspirations</a>
+                <a href="RGBProducts" style="text-decoration:none;">RGB Products</a>
+                <a href="GettingStarted" style="text-decoration:none;">Getting Started</a>
+                <a href="LogIn" style=" text-decoration:none;">Log In</a>
+            </nav>
+            </div>
+            
+            <main><!--Main Flex container-->
+                <!--Flex Items-->
+                <section class="boxarea">
+                    <img src="./img/mancave.jpg" alt="Office RGB">
+                    <h1>New Game Room Designs</h1>
+                    <p>Visit our design inspirations page to see more of our latest game rooms.</p>
+                </section>
+                <section class="boxarea">
+                    <img src="./img/pc_rgb.jpg" alt="PC RGB">
+                    <h1>Hi-Tech PC Components</h1>
+                    <p>Check out our latest and greatest selection of RGB PC components.</p>
+                </section>
+                <section class="boxarea">
+                    <img src="./img/office_rgb.jpg" alt="PC RGB">
+                    <h1>Brighter RGB Office Panels</h1>
+                    <p>State-of-the-art RGB panels give your officea comfortable and invigorating feel.</p>
+                </section>
+            </main>
+            <footer>
+                <div id="footer">
+                <a href="AboutUs" style="text-decoration:none;">About Us</a>
+                <a href="Testimonials" style="text-decoration:none;">Testimonials</a>
+                <a href="ContactUs" style="text-decoration:none;">Contact Us</a>
+                <a href="LiveChat" style="text-decoration:none;">Live Chat</a>
+            </div>
+            </footer>
+        </div>
+    </body>
+</html>

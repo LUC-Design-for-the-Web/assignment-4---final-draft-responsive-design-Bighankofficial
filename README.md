@@ -1,50 +1,33 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8814082&assignment_repo_type=AssignmentRepo)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8797992&assignment_repo_type=AssignmentRepo)
 # Overview
 
-For assignment 4, you will compile all graphics/images and code the remaining pages of your site.  Listed below are the requirements you will need to adhere to for completion of this assignment. Your site will need to be completed using semantic HTML5 tags. 
-
-## HTML Requirements:
-
-- Your site must be designed according to the wire-frame outlined in Assignment 2. The wire-frame in Assignment 2 should have a layout that resembles the structure and alignment of elements within site.
-- Your site must incorporate HTML5 semantic elements along with ```<div>``` elements that contain id and class attributes. At a minimum, your site must contain a ```<header>```,```<nav>```,```<footer>``` and ```<section>``` tag within the container or body tag.
-- Your site must contain meta tags discussed in class along with content for each tag.
-- Lay-out is symmetrical and aesthetically pleasing (End-users of your site must find it easy to look at your site without distraction or frustration)
-- Your site must take in consideration the following 3 navigation questions:
-  1.  Where am I?
-  2.  Where can I go?
-  3.  How do I get back to where I started?
+For assignment 3, you will continue to develop your site by coding the distinct wire-frames you created in assignment 2.  You will also solidify your color and graphics strategy by selecting the colors and typography you will use in the final draft of your site. 
 
 
+Listed below are the  requirements you will need to complete for your individual project. Your project folder will need to  implement a hierarchical folder structure along with coded html documents containing the layout(s) of your site.
 
-## CSS Requirements: 
+## Requirement 1 (Layout Strategy): 
 
-- Your site must incorporate the font, color and graphic’s strategy outlined in previous assignment. Your site must contain at least 5 graphical items (graphical items can include background pictures, icons, logo, etc.) with all graphics listed within an image directory/folder. 
-- Your site must make effective use of one Pseudo-class.
-- Your site must demonstrate the use of active white space utilizing margin and padding.
-- Your site must make use of an External Style Sheet
+For this requirement, you will need to code the desktop wire-frame(s) for each distinct layout constructed in assignment 2 using the layout strategies we discussed in class (Traditional Float, CSS Flexbox, CSS Grid).   The desktop version of the wire-frame(s) you created in assignment 2 should guide you in the development of your lay-out(s). If your site has multiple distinct layouts, please code the layouts in separate html documents.  For example, if your site has three distinct layouts, your filenames will be layout_one.html, layout_two.html, layout_three.html.   Please use borders, placeholder.com or background color to display the various box elements in the lay-out if there is no content or images to display within the box element.
 
+## Requirement 2 (Color and Graphic Strategy): 
 
-## Quality assurance and user Testing
-- Consideration of ISO – 9660 standards for filenames which include folders, images, fonts and html pages.
-- Each page of your site must be sent through W3C Markup Validation service. All warning and errors must be rectified before submission.  You also must validated your using W3C Validation. 
-- All page images and html pages are correctly hyperlinked.
-- The content within each of your HTML pages is grammatically correct.
+For this requirement, you will need to solidify your site’s color and graphic strategy.  Graphics may include logo, banner and background images. Once you have identified your sites color scheme, please provide the following information for each item listed below.  Within in the CSS code, please comment your response for questions 1 -3.  Your comments should be placed prior to any CSS style rules. 
 
-## Responsive Design Requirements
+- How did you decide on your site’s color scheme? 
+- Provide me with the color palette you will use within your site and provide the hexadecimals values for each color.
+- What areas of your site will be impacted by your color choice? Be descriptive in identifying where the various colors in your color palette will be depicted.  
 
-- All images within your site must be responsive.
-- Site must include a minimum of two 2 media queries using the screen media type.
-- Content should be visible and aesthetically pleasing no matter which width the end-user is viewing your site at. 
-- Navigation and box elements must have symmetrical proportions within browser window.
-- Site must include the meta tag that specifies the viewport and the initial-scale
+**Please demonstrate your overall color scheme within the layout.html document.**
 
-**Implementation of Accessibility into website and Improving efficiency and usability (2 Point Extra Credit)**
+## Requirement 3 (Font Strategy): 
+For this requirement, you will need to determine your site’s font strategy.  You are free to include as many fonts as you deem necessary, but its a good design practice to choose 1 or 2 fonts and use varying sizes and font weights. Feel free to incorporate fonts from Google, dafont.com or use the [global web safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) typically found across browsers and operating systems.  Once you have identified your sites font, please provide the following information for each item listed below.  Within the CSS code, please comment your response for questions 1 -3.  Your comments should be placed prior to any CSS style rules.  You will also need to place a brief comment above each style rule  describing where font will be rendered in the browser.
 
-Two points will be added to your overall score if you can effectively implement one of the 2 concepts listed below.
-1. Accessibility enhancement with aria roles  - Read more by [clicking here](https://a11yproject.com/posts/getting-started-aria/)
-2. Implementation and utilization of a content delivery network(CDN) for images, graphics and font.
+- What font(s) will you use for the ```<body>```(default declarations), ```<p>``` and ```<h1> - <h6>```(Your individual project must incorporate at least 3 levels of headings.)HTML tags? A CSS comment will also be be placed above each style rule that has the font or font-family property.
+- What are the different weights and sizes of the heading and paragraph tags? 
+- What is your desired line-height, word-spacing, and letter-spacing?
 
-**Please notify me of extra credit attempt via the comment section of assignment.**
+**Demonstrate your font scheme/strategy within the layout.html document.**
 
-## Submission
+## Requirement 4 (Submission)
 Your project folder will need to be submitted to the assigned GitHub repository provided to you by the instructor. In Sakai, you will need to submit the link to your repository by the due date and time listed in the write-up. Make sure you receive confirmation from Sakai that your assignment has been submitted. Submission video instructions [here](https://instructorc.github.io/site/slides/presentation/video/github_upload.mp4) 
